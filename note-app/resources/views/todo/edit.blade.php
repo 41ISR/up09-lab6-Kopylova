@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="edit-container">
         <h1 class="edit-title">Edit your todo</h1>
         <form action="{{ route('todo.update', $todo) }}" method="POST" class="edit-form">
@@ -32,4 +32,4 @@
             </div>
         </form>
     </div>
-</x-layout>
+</x-app-layout>

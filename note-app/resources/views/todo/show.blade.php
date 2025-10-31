@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
     <div class="show-container">
         <div class="show-header">
             <h1 class="show-title">Todo: {{ $todo->name }}</h1>
@@ -35,4 +35,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</x-app-layout>

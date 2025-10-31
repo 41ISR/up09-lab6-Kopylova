@@ -1,4 +1,4 @@
-<x-layout>
+<x-app-layout>
        <div class="container">
         <a href="{{ route('todo.create') }}" class="new-todo-btn">
             New Todo
@@ -40,4 +40,4 @@
             {{ $todos->links() }}
         </div>
     </div>
-</x-layout>
+</x-app-layout>

@@ -1,5 +1,5 @@
 
-<x-layout>
+<x-app-layout>
     <div class="show-container">
         <div class="show-header">
             <h1 class="show-title">Note: {{ $note->created_at->format('M d, Y H:i') }}</h1>
@@ -18,4 +18,4 @@
             </div>
         </div>
     </div>
-</x-layout>
+</x-app-layout>
